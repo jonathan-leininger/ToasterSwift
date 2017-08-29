@@ -26,7 +26,7 @@ pod "ToasterSwift"
 ToasterSwift.shared.show(message: "Hello world !", keep: true, close: true)
 ```
 
-keep : true if the toast should still display, false to auto hide this one after N seconds
+keep : true if the toast should still display, false to auto hide this one after N seconds\n
 close : true if the button close should be display
 
 ## Author
