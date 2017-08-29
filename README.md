@@ -20,6 +20,15 @@ it, simply add the following line to your Podfile:
 pod "ToasterSwift"
 ```
 
+## Utilisation
+
+```ruby
+ToasterSwift.shared.show(message: "Hello world !", keep: true, close: true)
+```
+
+keep : true if the toast should still display, false to auto hide this one after N seconds
+close : true if the button close should be display
+
 ## Author
 
 jonathan-leininger, jonathan.leininger@open-groupe.com
