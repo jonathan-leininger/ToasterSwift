@@ -1,0 +1,6 @@
+framework module ToasterSwift {
+  umbrella header "ToasterSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
