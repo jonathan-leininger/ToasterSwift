@@ -28,7 +28,7 @@ ToasterSwift.shared.show(message: "Hello world !", keep: true, close: true)
     
 | Parameter | Description |
 | ------ | ------ |
-| keep | true if the toast should still display, false to auto hide this one after N seconds |
+| keep | true if the toast should still be display, false to auto hide this one after N seconds |
 | close | true if the button close should be display |
 
 
