@@ -32,6 +32,10 @@ ToasterSwift.shared.show(message: "Hello world !", keep: true, close: true)
 | close | true if the button close should be display |
 
 
+```ruby
+ToasterSwift.shared.hide()
+``````
+
 ## Author
 
 jonathan-leininger, jonathan.leininger@open-groupe.com
