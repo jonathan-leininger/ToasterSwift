@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ToasterSwift'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This is a simple toaster written in Swift for iOS applications.'
 
 # This description is used to generate tags and improve search results.

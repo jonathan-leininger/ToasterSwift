@@ -33,7 +33,7 @@ public class ToasterSwift: NSObject {
         return Static.instance
     }
     
-    public func show(message: String, keep: Bool, close: Bool) {
+    public func show(message: String, keep: Bool, close: Bool) -> Void {
         
         if view == nil {
             self.setupText()
@@ -62,6 +62,10 @@ public class ToasterSwift: NSObject {
         self.setTextFrame(withButtonClose: close)
         
         self.window?.addSubview(view)
+    }
+    
+    public func hide() -> Void {
+        self.hide(nil)
     }
     
     // MARK:- Private
