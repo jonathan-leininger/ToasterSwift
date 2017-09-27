@@ -38,7 +38,7 @@ ToasterSwift.shared.hide()
 
 ## Author
 
-jonathan-leininger, jonathan.leininger@open-groupe.com
+jonathan-leininger
 
 ## License
 
